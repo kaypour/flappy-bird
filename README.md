@@ -14,10 +14,12 @@ But until then, we can enjoy the game.
 
 ### Compiling
 
-To compile the game, you will need Git, Go and SDL2 installed. 
+To compile the game, you will need Git, Go and SDL2 installed.
 
-Follow the instructions for Git [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). 
+Follow the instructions for Git [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
 Follow the instructions for Go [here](https://golang.org/dl/).
+
 Follow the instructions for SDL2 [here](https://github.com/veandco/go-sdl2).
 
 After that has been done, run the following command:
