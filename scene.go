@@ -86,7 +86,7 @@ func (s *scene) run() error {
 					out <- err
 					return
 				}
-				if s.bird.dead {
+				if s.bird.isDead() {
 					if s.bird.deadSince() > lingerOnDeath {
 						s.score = 0
 						s.bird.restart()

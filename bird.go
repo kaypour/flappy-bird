@@ -170,3 +170,10 @@ func (b *bird) deadSince() time.Duration {
 	}
 	return time.Since(b.timeOnDeath)
 }
+
+// isDead returns true if the bird is dead.
+func (b *bird) isDead() bool {
+	b.mutex.RLock()
+	defer b.mutex.RUnlock()
+	return b.dead
+}
